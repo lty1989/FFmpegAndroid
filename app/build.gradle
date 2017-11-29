@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "24.0.0"
+    buildToolsVersion '26.0.0'
     defaultConfig {
         applicationId "com.ws.ffmpeg.ffmpegandroid"
         minSdkVersion 15
@@ -17,7 +17,7 @@ android {
         }
 
         ndk {
-            abiFilters  "armeabi-v7a"
+            abiFilters "armeabi-v7a"
         }
 
     }
