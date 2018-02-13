@@ -105,5 +105,12 @@ Java_com_ws_ffmpeg_ffmpegandroid_MainActivity_avfilterinfo(
 }
 
 }
+extern "C"
+JNIEXPORT jstring JNICALL
+Java_com_ffmpegdemo_FFmpegHandle_getAvcodecConfiguration(JNIEnv *env, jobject instance) {
+
+    // TODO
 
 
+    return env->NewStringUTF("");
+}

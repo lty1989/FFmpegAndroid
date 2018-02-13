@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FFmpegAndroid.iml" filepath="$PROJECT_DIR$/FFmpegAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/FFmpegAndroid.iml" filepath="$PROJECT_DIR$/.idea/FFmpegAndroid.iml" />
+      <module fileurl="file://D:\work\workspace\FFmpegAndroid\FFmpegAndroid.iml" filepath="D:\work\workspace\FFmpegAndroid\FFmpegAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/ffmpegandroidaddmusic/ffmpegandroidaddmusic.iml" filepath="$PROJECT_DIR$/ffmpegandroidaddmusic/ffmpegandroidaddmusic.iml" />
       <module fileurl="file://$PROJECT_DIR$/ffmpegandroidavfilter/ffmpegandroidavfilter.iml" filepath="$PROJECT_DIR$/ffmpegandroidavfilter/ffmpegandroidavfilter.iml" />
@@ -11,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/ffmpegandroiddecoder/ffmpegandroiddecoder.iml" filepath="$PROJECT_DIR$/ffmpegandroiddecoder/ffmpegandroiddecoder.iml" />
       <module fileurl="file://$PROJECT_DIR$/ffmpegandroidplayer/ffmpegandroidplayer.iml" filepath="$PROJECT_DIR$/ffmpegandroidplayer/ffmpegandroidplayer.iml" />
       <module fileurl="file://$PROJECT_DIR$/ffmpegandroidwallpaper/ffmpegandroidwallpaper.iml" filepath="$PROJECT_DIR$/ffmpegandroidwallpaper/ffmpegandroidwallpaper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ffmpegdemo/ffmpegdemo.iml" filepath="$PROJECT_DIR$/ffmpegdemo/ffmpegdemo.iml" />
     </modules>
   </component>
 </project>

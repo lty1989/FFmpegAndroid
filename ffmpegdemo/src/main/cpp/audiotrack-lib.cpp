@@ -2,16 +2,12 @@
 
 #include <jni.h>
 #include <android/log.h>
-#include "libswresample/swresample.h"
-#include <android/native_window.h>
-#include <android/native_window_jni.h>
 
 extern "C" {
 #include "libavcodec/avcodec.h"
 #include "libavformat/avformat.h"
-#include "libswscale/swscale.h"
-#include "libavutil/imgutils.h"
-//};
+#include "libswresample/swresample.h"
+};
 
 
 #define  LOG_TAG    "ffmpegdemo"
@@ -21,9 +17,7 @@ JNIEXPORT jint JNICALL
 Java_com_ffmpegdemo_AudioTrackActivity_play
         (JNIEnv *env, jclass clazz) {
     LOGD("play");
-
     // sd卡中的视频文件地址,可自行修改或者通过jni传入
-    //char *file_name = "/storage/emulated/0/test.mp4";
     char *file_name = "/storage/emulated/0/temp.mp3";
 
     av_register_all();
@@ -147,5 +141,4 @@ Java_com_ffmpegdemo_AudioTrackActivity_play
 }
 
 
-}
 

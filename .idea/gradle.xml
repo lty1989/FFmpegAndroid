@@ -3,7 +3,7 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="LOCAL" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="C:\Program Files\Android\Android Studio\gradle\gradle-2.14.1" />
         <option name="modules">
@@ -17,6 +17,7 @@
             <option value="$PROJECT_DIR$/ffmpegandroiddecoder" />
             <option value="$PROJECT_DIR$/ffmpegandroidplayer" />
             <option value="$PROJECT_DIR$/ffmpegandroidwallpaper" />
+            <option value="$PROJECT_DIR$/ffmpegdemo" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
